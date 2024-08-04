@@ -1,10 +1,14 @@
 {
+  "homepage": "https://harinivas-28.github.io/Text-2-SQL",
   "name": "sql",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "react-scripts build",
     "start": "concurrently \"npm run server\" \"npm run client\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "server": "cd my-backend && npm start",
     "client": "cd my-frontend && npm start"
   },
@@ -13,10 +17,26 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
+    "axios": "^1.7.3",
+    "react-dom": "^18.3.1",
     "three": "^0.166.1",
-    "vanta": "^0.5.24"
+    "vanta": "^0.5.24",
+    "web-vitals": "^4.2.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
