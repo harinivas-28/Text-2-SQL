@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Text-2-SQL/static/css/main.91fdf84e.css",
+    "main.js": "/Text-2-SQL/static/js/main.92ca230b.js",
+    "static/js/488.dabeb0a1.chunk.js": "/Text-2-SQL/static/js/488.dabeb0a1.chunk.js",
+    "index.html": "/Text-2-SQL/index.html",
+    "main.91fdf84e.css.map": "/Text-2-SQL/static/css/main.91fdf84e.css.map",
+    "main.92ca230b.js.map": "/Text-2-SQL/static/js/main.92ca230b.js.map",
+    "488.dabeb0a1.chunk.js.map": "/Text-2-SQL/static/js/488.dabeb0a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91fdf84e.css",
+    "static/js/main.92ca230b.js"
+  ]
+}
